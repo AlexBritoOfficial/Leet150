@@ -31,7 +31,8 @@ public class ValidParentheses20 {
               left.push(characters[i]);
             }
 
-            else if (!left.isEmpty() && (int)characters[i] - left.peek().charValue() == 1 || !left.isEmpty() && (int)characters[i] - left.peek().charValue() == 2){
+            else if (!left.isEmpty() && (int)characters[i] - left.peek().charValue() == 1 ||
+                    !left.isEmpty() && (int)characters[i] - left.peek().charValue() == 2){
                     left.pop();
                 }
             else
