@@ -36,13 +36,13 @@ public class SameTree100 {
         return false;
     }
     public static void main(String[] args) {
-        
+
     }
 
     class TreeNode{
         int element;
-        MaximumDepthOfBinaryTree104.TreeNode left;
-        MaximumDepthOfBinaryTree104.TreeNode right;
+        TreeNode left;
+        TreeNode right;
         boolean isVisited;
         TreeNode(){
 
